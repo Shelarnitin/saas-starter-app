@@ -136,6 +136,7 @@ function Signup() {
                   <AlertDescription>{error}</AlertDescription>
                 </Alert>
               )}
+              <div id="clerk-captcha"></div>
               <Button type="submit" className="w-full">
                 Sign Up
               </Button>
